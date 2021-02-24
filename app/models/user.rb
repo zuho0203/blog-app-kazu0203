@@ -23,6 +23,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :articles, dependent: :destroy
+  has_many :likes, dependent: :destroy
+
   has_one :profile, dependent: :destroy
 
   delegate :birthday, :gender, :age, to: :profile, allow_nil: true
