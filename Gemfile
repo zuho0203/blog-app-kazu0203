@@ -31,6 +31,7 @@ gem 'active_decorator'
 gem 'active_model_serializers'
 gem 'letter_opener'
 gem 'letter_opener_web', '~> 1.0'
+gem 'sidekiq'
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
