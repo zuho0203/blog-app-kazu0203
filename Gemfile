@@ -29,6 +29,8 @@ gem 'devise'
 gem 'aws-sdk-s3', require: false
 gem 'active_decorator'
 gem 'active_model_serializers'
+gem 'letter_opener'
+gem 'letter_opener_web', '~> 1.0'
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
