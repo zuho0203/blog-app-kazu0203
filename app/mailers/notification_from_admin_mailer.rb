@@ -1,6 +1,6 @@
 class NotificationFromAdminMailer < ApplicationMailer
     def notify(user, msg)
-        @mag = msg
+        @msg = msg
         mail to: user.email, subject: 'お知らせ'
     end
 end
